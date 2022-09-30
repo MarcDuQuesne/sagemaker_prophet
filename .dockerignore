@@ -1,0 +1,10 @@
+# ignore Dockerfile and .dockerignore
+Dockerfile
+.dockerignore
+
+# python stuff
+__pycache__
+.venv
+
+# test dirs
+tests

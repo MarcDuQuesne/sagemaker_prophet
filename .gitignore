@@ -1,0 +1,13 @@
+.vscode
+*.swp
+package-lock.json
+__pycache__
+**__pycache__
+.pytest_cache
+.env
+.venv
+*.egg-info
+.vscode
+.idea/
+
+tests/output/model/*.json

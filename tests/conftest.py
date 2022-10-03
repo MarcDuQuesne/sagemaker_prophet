@@ -16,7 +16,7 @@ params = {
     "inference_docker_image_uri": "196851712332.dkr.ecr.eu-west-1.amazonaws.com/prophet:toolkit-inference-1.1",
     "endpoint_name": "test-FBProphet"
     + datetime.utcnow().strftime(
-        "%Y%m%d%H%m%s"
+        "%Y%m%d%H%m%S"
     ),  # MG is it possible to re-use or update an existing cfg?
 }
 
@@ -78,3 +78,4 @@ def endpoint(sagemaker_session):
 
     # Delete endpoint
     session.delete_endpoint(EndpointName=params["endpoint_name"])
+    logger.info('Deleted Endpoint.')

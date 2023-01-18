@@ -13,4 +13,4 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms-batch-code.html
 https://github.com/aws/sagemaker-training-toolkit
 
 # Contacts
-Matteo Giani (matteo.giani@dsm.nl)
+Matteo Giani (matteo.giani.87@gmail.com)
